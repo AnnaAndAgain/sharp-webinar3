@@ -7,7 +7,7 @@ int i = 0;
 
 for (i = 1; i <= N; i++)
 {
-    array[i - 1] = Convert.ToInt32(Math.Pow(i, 2));
+    array[i - 1] = (int) Math.Pow(i, 2);
 };
 
 Console.WriteLine(string.Join(", ", array));
